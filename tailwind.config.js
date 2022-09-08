@@ -12,6 +12,11 @@ module.exports = {
       fontFamily: {
         manrope: ['"Manrope"', 'sans-serif'],
       },
+      backgroundImage: {
+        'hero-pattern-mobile':
+          "url('../public/assets/illustration-hero-mobile.png')",
+        'bg-hero-squiggle': "url('../public/assets/bg-hero-squiggle.svg')",
+      },
     },
     colors: {
       cyan: {
