@@ -16,9 +16,9 @@ module.exports = {
     colors: {
       cyan: {
         100: '#3EE9E5',
-        200: '#093F68s',
+        200: '#093F68',
       },
-      gray: '#777F98s',
+      gray: '#777F98',
       white: '#FFFFFF',
       midnight: '#080C20',
       danger: '#FF2965',
