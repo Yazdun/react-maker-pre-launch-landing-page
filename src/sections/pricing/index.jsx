@@ -13,7 +13,7 @@ export const Pricing = () => {
       </div>
       <ul className="flex flex-col gap-20 md:gap-10 md:flex-row">
         {data.map(item => {
-          return <Card key={item.title} info={item} />
+          return <Card key={item.title} info={item} ltr={item.isFree} />
         })}
       </ul>
     </section>
