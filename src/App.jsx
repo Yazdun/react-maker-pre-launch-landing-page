@@ -1,8 +1,15 @@
+import { Navbar } from './components'
+import { Hero, Notify, Pricing, Showcase } from './sections'
+
 function App() {
   return (
-    <div>
-      <h1>Maker Pre Launch Landing Page</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Showcase />
+      <Pricing />
+      <Notify />
+    </>
   )
 }
 
