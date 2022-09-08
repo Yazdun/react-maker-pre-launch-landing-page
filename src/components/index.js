@@ -1,4 +1,5 @@
 export { Navbar } from './navbar'
+export { Benefit } from './benefit'
 export {
   Logo,
   Scroll,
