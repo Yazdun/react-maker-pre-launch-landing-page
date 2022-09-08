@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: theme('colors.midnight');
   color: theme('colors.white');
   font-family: theme('fontFamily.manrope');
   overflow-x: hidden;
-  /* background-color: #0fcac7; */
 }
