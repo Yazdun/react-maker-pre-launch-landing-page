@@ -7,4 +7,6 @@ export {
   Financial,
   Lifestyle,
   Passions,
+  Free,
+  Paid,
 } from './illustrations'
