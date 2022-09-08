@@ -1,5 +1,5 @@
 import React from 'react'
 
 export const Notify = () => {
-  return <div>Notify</div>
+  return <section className="container p-5 m-auto">Notify</section>
 }

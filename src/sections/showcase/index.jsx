@@ -4,7 +4,7 @@ import { Benefit } from '../../components'
 
 export const Showcase = () => {
   return (
-    <ul className="container flex flex-col items-center justify-center gap-20 p-5 m-auto lg:flex-row lg:gap-5">
+    <ul className="container flex flex-col items-center justify-center gap-20 p-5 m-auto lg:flex-row lg:gap-5 lg:justify-between">
       {data.map((item, idx) => {
         const isEven = idx % 2 === 0 ? true : false
         return (
