@@ -10,3 +10,4 @@ export {
   Free,
   Paid,
 } from './illustrations'
+export { Card } from './card'
