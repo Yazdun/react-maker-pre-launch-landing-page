@@ -3,7 +3,7 @@ import { data } from './data'
 
 export const Pricing = () => {
   return (
-    <section className="container p-5 m-auto my-20 space-y-10 md:space-y-20">
+    <section className="container p-5 m-auto my-40 space-y-10 md:space-y-20">
       <div className="space-y-8 text-center md:max-w-[32.563rem] m-auto">
         <h2 className="text-3xl font-bold">Our pricing plans</h2>
         <p className="text-gray">

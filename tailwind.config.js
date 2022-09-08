@@ -20,17 +20,23 @@ module.exports = {
           "url('../public/assets/illustration-hero-right.svg')",
         'illustration-hero-left':
           "url('../public/assets/illustration-hero-left.svg')",
+        'bg-footer-squiggle': "url('../public/assets/bg-footer-squiggle.svg')",
       },
     },
     colors: {
       cyan: {
         100: '#3EE9E5',
         200: '#093F68',
+        300: '#04192c',
+        400: '#0fcac7',
       },
       gray: '#777F98',
       white: '#FFFFFF',
       midnight: '#080C20',
-      danger: '#FF2965',
+      danger: {
+        100: '#ff428a',
+        200: '#44071e',
+      },
       slate: '#94a3b8',
     },
   },

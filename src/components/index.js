@@ -11,3 +11,4 @@ export {
   Paid,
 } from './illustrations'
 export { Card } from './card'
+export { Error } from './error'

@@ -7,10 +7,5 @@ body {
   color: theme('colors.white');
   font-family: theme('fontFamily.manrope');
   overflow-x: hidden;
+  /* background-color: #0fcac7; */
 }
-
-/* .container {
-  width: 100%;
-  max-width: 70rem;
-  margin: auto;
-} */
