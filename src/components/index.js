@@ -1,3 +1,9 @@
 export { Navbar } from './navbar'
-export { Logo } from './logo'
-export { Scroll } from './scroll'
+export {
+  Logo,
+  Scroll,
+  Car,
+  Financial,
+  Lifestyle,
+  Passions,
+} from './illustrations'
