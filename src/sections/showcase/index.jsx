@@ -19,7 +19,7 @@ export const Showcase = () => {
                 : 'md:mr-[5rem] lg:mr-0 lg:mb-[2rem]'
             }
           >
-            <Benefit info={item} />
+            <Benefit info={item} idx={idx} />
           </li>
         )
       })}
