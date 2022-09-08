@@ -6,6 +6,7 @@ body {
   background-color: theme('colors.midnight');
   color: theme('colors.white');
   font-family: theme('fontFamily.manrope');
+  overflow-x: hidden;
 }
 
 .container {

@@ -16,6 +16,10 @@ module.exports = {
         'hero-pattern-mobile':
           "url('../public/assets/illustration-hero-mobile.png')",
         'bg-hero-squiggle': "url('../public/assets/bg-hero-squiggle.svg')",
+        'illustration-hero-right':
+          "url('../public/assets/illustration-hero-right.svg')",
+        'illustration-hero-left':
+          "url('../public/assets/illustration-hero-left.svg')",
       },
     },
     colors: {
