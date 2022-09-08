@@ -17,7 +17,7 @@ export const data = [
   {
     title: 'Dive right in',
     desc: 'Ready for the big time? Our paid plan will help you take your business to the next level.',
-    price: 25,
+    price: 25.0,
     isFree: false,
     Icon: Paid,
     options: [

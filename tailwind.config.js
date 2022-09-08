@@ -31,6 +31,7 @@ module.exports = {
       white: '#FFFFFF',
       midnight: '#080C20',
       danger: '#FF2965',
+      slate: '#94a3b8',
     },
   },
   plugins: [],
