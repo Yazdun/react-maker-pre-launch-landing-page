@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { BsCheckLg } from 'react-icons/bs'
 
 export const Card = ({ info }) => {
