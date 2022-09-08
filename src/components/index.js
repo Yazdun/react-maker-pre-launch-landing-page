@@ -11,3 +11,4 @@ export {
 } from './illustrations'
 export { Card } from './card'
 export { Error } from './error'
+export { Modal } from './modal'

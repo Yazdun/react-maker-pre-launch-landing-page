@@ -21,6 +21,7 @@ module.exports = {
         'illustration-hero-left':
           "url('../public/assets/illustration-hero-left.svg')",
         'bg-footer-squiggle': "url('../public/assets/bg-footer-squiggle.svg')",
+        'bg-rainy': "url('../public/assets/rains.svg')",
       },
     },
     colors: {
@@ -32,7 +33,9 @@ module.exports = {
       },
       gray: '#777F98',
       white: '#FFFFFF',
+      black: '#000000',
       midnight: '#080C20',
+      transparent: 'rgba(0, 0, 0, 0.85)',
       danger: {
         100: '#ff428a',
         200: '#44071e',
