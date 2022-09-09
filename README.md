@@ -12,7 +12,7 @@
   <p align="center">
     Frontend Mentor Challenge
     <br />
-    <a href=""><strong>View on frontend mentor »</strong></a>
+    <a href="https://www.frontendmentor.io/solutions/animated-landing-page-using-framer-motion-and-lottiefiles-DDaTkkrWh5"><strong>View on frontend mentor »</strong></a>
     <br />
     <br />
     <a href="https://makerfem.netlify.app">View Demo</a>
