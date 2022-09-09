@@ -9,6 +9,7 @@ export const Notify = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm()
   const error = errors.email?.message
 
@@ -17,9 +18,14 @@ export const Notify = () => {
     submitted: false,
   })
 
-  console.log(submitted)
+  const closeModal = () => {
+    setState({ submitted: false, email })
+  }
 
-  const onSubmit = data => setState({ email: data.email, submitted: true })
+  const onSubmit = data => {
+    setState({ email: data.email, submitted: true })
+    reset()
+  }
 
   return (
     <>
@@ -55,7 +61,9 @@ export const Notify = () => {
           </div>
         </form>
       </section>
-      {submitted && <Modal />}
+      <AnimatePresence initial={false}>
+        {submitted && <Modal email={email} fn={closeModal} />}
+      </AnimatePresence>
     </>
   )
 }

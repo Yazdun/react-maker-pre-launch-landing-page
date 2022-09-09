@@ -40,6 +40,7 @@ module.exports = {
         100: '#ff428a',
         200: '#44071e',
       },
+      sky: '#3eb3e9',
       slate: '#94a3b8',
     },
   },

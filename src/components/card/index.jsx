@@ -6,7 +6,7 @@ export const Card = ({ info, ltr }) => {
   const { title, desc, price, isFree, Icon, options } = info
   const theme = isFree
     ? 'bg-cyan-200'
-    : 'bg-cyan-100 md: text-midnight bg-bg-rainy'
+    : 'bg-cyan-100 md: text-midnight bg-gradient-to-tr from-cyan-100 to-sky'
   return (
     <motion.article
       {...framer_card(ltr)}
