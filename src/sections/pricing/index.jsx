@@ -11,7 +11,7 @@ export const Pricing = () => {
           affordable, and it’s completely free to get started.
         </p>
       </div>
-      <ul className="flex flex-col gap-20 md:gap-10 md:flex-row">
+      <ul className="flex flex-col gap-20 md:gap-10 md:flex-row md:justify-center">
         {data.map(item => {
           return <Card key={item.title} info={item} ltr={item.isFree} />
         })}

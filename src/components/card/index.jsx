@@ -10,7 +10,7 @@ export const Card = ({ info, ltr }) => {
   return (
     <motion.article
       {...framer_card(ltr)}
-      className={`relative p-8 rounded-xl space-y-5 md:w-[50%] ${theme}`}
+      className={`relative p-8 rounded-xl space-y-5 md:w-[50%] max-w-[30rem] ${theme}`}
     >
       <div
         className={`absolute ${isFree ? '-top-5 left-51' : '-top-10 left-51'} `}
