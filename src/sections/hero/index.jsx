@@ -17,19 +17,16 @@ export const Hero = () => {
         <div className="bg-gradient-to-l from-midnight w-[100%] h-[100%]"></div>
       </div>
       <div className="flex flex-col items-center gap-8 p-5 md:max-w-[28.563rem] md:m-auto md:bg-bg-hero-squiggle md:bg-contain bg-no-repeat bg-center ">
-        <motion.h1
-          {...framer_title}
-          className="text-3xl font-bold leading-snug text-center md:text-4xl"
-        >
+        <motion.h1 className="text-3xl font-bold leading-snug text-center md:text-4xl">
           Get paid for the work you <span className="text-cyan-100">love</span>{' '}
           to do.
         </motion.h1>
-        <motion.p {...framer_desc} className="text-center text-gray">
+        <motion.p className="text-center text-gray">
           The 9-5 grind is so last century. We believe in living life on your
           own terms. Whether you’re looking to escape the rat race or set up a
           side hustle, we’ve got you covered.
         </motion.p>
-        <motion.a href="#showcase" {...framer_icon}>
+        <motion.a href="#showcase">
           <Lottie animationData={scrollAnimation} loop={true} />
         </motion.a>
       </div>
