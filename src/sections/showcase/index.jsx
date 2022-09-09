@@ -6,7 +6,7 @@ export const Showcase = () => {
   return (
     <ul
       id="showcase"
-      className="container flex flex-col items-center justify-center gap-20 p-5 m-auto lg:flex-row lg:gap-5 lg:justify-between"
+      className="container flex flex-col items-center justify-center gap-20 p-5 m-auto lg:flex-row lg:gap-5 lg:justify-between max-w-[70rem]"
     >
       {data.map((item, idx) => {
         const isEven = idx % 2 === 0 ? true : false
