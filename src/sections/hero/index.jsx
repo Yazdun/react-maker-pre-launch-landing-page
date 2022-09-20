@@ -29,7 +29,7 @@ export const Hero = () => {
           own terms. Whether you’re looking to escape the rat race or set up a
           side hustle, we’ve got you covered.
         </motion.p>
-        <motion.a href="#showcase" {...framer_icon}>
+        <motion.a href="#showcase" className="max-w-[5rem]" {...framer_icon}>
           <Lottie animationData={scrollAnimation} loop={true} />
         </motion.a>
       </div>
